@@ -41,7 +41,22 @@ Assignment 3:
 q1_window.py - A window based NER (Named entity recognition) classifier and unit tests implemented in Tensorflow evaluated 
 on entity level F1 score
 
-q2_rn_cell.py - Tensorflow implementation of q2_rnn.py (convenience inbuilt tensorflow functions are not used here)
+q2_rnn_cell.py - Tensorflow implementation of an RNN cell (convenience inbuilt tensorflow functions are not used here)
+
+q3_gru_cell.py -  Tensorflow implementation of a GRU cell (convenience inbuilt tensorflow functions are not used here)
+
+q3_gru.py - A dynamic RNN implemented in Tensorflow using the Recurrent cell as implemented in q3_gru_cell.py to learn the latching
+behavior. data is synthetically generated here
+
+q2_rnn.py - Tensorflow implemented vanilla RNN model. Convenience functions wont be used here. 
+Used for training a classifier on NER. Takes in as input the cell to be used for recurrence (as implemented in q2_rnn_cell.py or q3_gru_cell.py)
+
+
+
+
+
+
+
 
 
             
